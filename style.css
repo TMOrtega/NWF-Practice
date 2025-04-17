@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f0f4f8;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+.controls {
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.word {
+  font-size: 3em;
+  margin-top: 40px;
+  color: black;
+}
+
+.word.correct {
+  color: green;
+}
+
+.word.incorrect {
+  color: red;
+}
